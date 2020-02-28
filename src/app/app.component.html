@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+
+    <app-button-box class="col-md-6 p-2" *ngIf="toggleBbOne" (toggleButtonBox)="toggleButtonBox($event)" [boxNumber]="1"></app-button-box>
+    <app-button-box class="col-md-6 p-2" *ngIf="toggleBbTwo" (toggleButtonBox)="toggleButtonBox($event)" [boxNumber]="2"></app-button-box>
+    <app-button-box class="col-md-6 p-2" *ngIf="toggleBbThree" (toggleButtonBox)="toggleButtonBox($event)" [boxNumber]="3"></app-button-box>
+    <app-button-box class="col-md-6 p-2" *ngIf="toggleBbFour" (toggleButtonBox)="toggleButtonBox($event)" [boxNumber]="4"></app-button-box>
+
+  </div>
